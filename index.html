@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
-
 		<!-- Meta tags -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
 		<meta name="description" content="Nicolas Meseguer's website, biography, education, previous experience and published papers."/>
 		<meta name="keywords" content="nicolasmeseguer, NicolasMeseguer, Nicolas Meseguer, nicolas meseguer youtube, nicolas meseguer github, nicolas meseguer murcia, nicolas meseguer cv, nicolas meseguer portfolio"/>
 		
@@ -17,19 +14,15 @@
 		<!-- Title + Icon -->
 		<title>Saul Santos</title>
 		<link rel="icon" type="image/x-icon" href="assets/documents/imgs/1583367492769.png">
-
 		<!-- Improve SEO -->
 		<meta name="robots" content="index,follow" />
-
 		<!-- Styles -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 		<link rel="stylesheet" href="assets/css/main.css">
-
 	</head>
-
 	<!-- Google tag (gtag.js) & Google Analytics -->
 	<script>
         fetch('./assets/js/config.json')
@@ -39,24 +32,18 @@
                 scriptTag.async = true;
                 scriptTag.src = `https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsMeasurementId}`;
                 document.head.appendChild(scriptTag);
-
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-
                 gtag('config', config.googleAnalyticsMeasurementId);
             })
             .catch(error => console.error('Error loading the configuration:', error));
     </script>
-
 	<body>
-
 		<!-- Bottom rounded button -->
 		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
 		<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
 		<div class="options-button" id="lan"><img class="lang-flag" src="https://flagcdn.com/w20/us.png" alt="Flag indicating the english language is selected"></div>
-
-
 		<!-- Navbar  -->
 		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
 			<div class="container justify-content-center">
@@ -82,15 +69,51 @@
 								data-es="Publicações" 
 								data-en="Publications">
 						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="blog" href="#" 
+								data-es="Blog" 
+								data-en="Blog">
+							</a>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" id="academic" href="#" 
 								data-es="Académico" 
 								data-en="Academic">
 							</a>
-
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="projects" href="#" 
+								data-es="Projetos" 
+								data-en="Side Projects">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="conferences" href="#" 
+								data-es="Conferências" 
+								data-en="Conferences">
+							</a>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" id="experience" href="#" 
 								data-es="Experiência" 
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -285,70 +266,49 @@ <h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
+  
 								data-en="Experience">
 							</a>
 						</li>
@@ -105,7 +128,6 @@
 				</div>
 			</div>
 		</nav>
-
 		<div class="container" id="main-content">
 			<div class="row content" id="section-content">
 				
@@ -116,9 +138,7 @@
 							<img src="assets/documents/imgs/1583367492769.png" class="rounded me-auto d-block img-fluid profilepicture" alt="Nicolas Meseguer profile picture">
 						</div>
 					</div>
-
 					<h3 class="mb-2">Saul Santos</h3>
-
 					<p class="mb-4">
 						<span class="t-secondary" data-es="Estudante de doutoramento no Instituto Superior Técnico e investigador no " 
 						data-en="Ph.D. in Electrical and Computer Engineering in Instituto Superior Técnico and researcher  at "></span> <a href="https://www.it.pt/" class="link-dark" target="_blank">IT</a>.
@@ -128,7 +148,6 @@
 						<div class="col-1">
 							<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
 						</div>
-
 						<div class="col-10">
 							<span 
 								data-es="Área Metropolitana" 
@@ -142,60 +161,48 @@
 							</span>
 						</div>
 					</div>
-
 					<div class="row mb-2">
 						<div class="col-1">
 							<i class="ai ai-cv" aria-hidden="true"></i>
 						</div>
-
 						<div class="col-10">
 							<a href="assets/documents/cv.pdf" class="link-dark" target="_blank" data-es="CV [Actualizado 07/2024]" data-en="CV [Updated 07/2024]"></a>
 						</div>
 					</div>
-
 					<div class="row mb-2">
 						<div class="col-1">
 							<i class="fa-regular fa-envelope" aria-hidden="true"></i>
 						</div>
-
 						<div class="col-10">
 							<a href="mailto:saul.r.santos@tecnico.ulisboa.pt" class="link-dark">saul.r.santos@tecnico.ulisboa.pt</a>
 						</div>
 					</div>
-
 					<div class="row mb-2">
 						<div class="col-1">
 							<i class="fa-brands fa-linkedin" aria-hidden="true"></i>
 						</div>
-
 						<div class="col-10">
 							<a href="https://www.linkedin.com/in/saul-santos-63449b15b/" class="link-dark" target="_blank">LinkedIn</a>
 						</div>
 					</div>
-
 					<div class="row mb-2">
 						<div class="col-1">
 							<i class="fa-brands fa-twitter" aria-hidden="true"></i>
 						</div>
-
 						<div class="col-10">
 							<a href="https://x.com/Saul_Santos1997" class="link-dark" target="_blank">Twitter</a>
 						</div>
 					</div>
-
 					<div class="row mb-2">
 						<div class="col-1">
 							<i class="fab fa-github" aria-hidden="true"></i>
 						</div>
-
 						<div class="col-10">
 							<a href="https://github.com/ssantos97" class="link-dark" target="_blank">GitHub</a>
 						</div>
 					</div>
-
 		
 				</div>
-
 				<!-- About Me -->
 				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
 					<div class="container">
@@ -209,33 +216,24 @@
 								data-es="Áreas de Investigação" 
 								data-en="Research Interests">
 							</h4>
-
 							<p class="mt-1"
-							   data-es="O meu doutoramento foca-se em modelos neuronais para memória e atenção com aplicações em geração de linguagem natural. Tenho trabalhado com modelos de memória associativa inspirados em neurociência, como Hopfield networks. Especificamente, tenho introduzido esparsidade e estrutura nestas redes. Co-supervisionado por <a href='https://andre-martins.github.io/'>Andre Martins</a> no <a href='https://sardine-lab.github.io/'>SARDINE lab</a>."
-							   data-en="My PhD focus on neural models for memory and attention with applications in natural language generation. I have been working with models of associative memory with inspiration in neuroscience such as Hopfield networks. Specifically, I have been introducing sparsity and structure to these networks. Co-supervised by <a href='https://andre-martins.github.io/'>Andre Martins</a> at the <a href='https://sardine-lab.github.io/'>SARDINE lab</a>."
-							></p>
-
+							    data-es="O meu doutoramento foca-se em modelos neuronais para memória e atenção com aplicações em geração de linguagem natural. Tenho trabalhado com modelos de memória associativa inspirados em neurociência, como Hopfield networks. Especificamente, tenho introduzido esparsidade e estrutura nestas redes. Co-supervisionado por <a href='https://andre-martins.github.io/'>Andre Martins</a> no <a href='https://sardine-lab.github.io//'>SARDINE</a> lab."
+							    data-en="My PhD focus on neural models for memory and attention with applications in natural language generation. I have been working with models of associative memory with inspiration in neuroscience such as Hopfield networks. Specifically, I have been introducing sparsity and structure to these networks. Co-supervised by <a href='https://andre-martins.github.io/'>Andre Martins</a> at the <a href='https://sardine-lab.github.io//'>SARDINE</a> lab."
+							</p>
 							<h4 id="honors-and-awards" class="mt-2" data-es="Notícias" data-en="News"></h4>
-
 							<ul class="mt-1">
-
 								<li class="abme-honors-bullet">
 									<strong>Lisbon Machine Learning School (LxMLS 2024)</strong>, <span data-es="Fui aceite para participar na Lisbon Machine Learning School (LxMLS 2024), em julho de 2024, com uma generosa bolsa da Google e Zendesk." data-en="I was accepted to participate in the Lisbon Machine Learning School (LxMLS 2024), in July 2024, with a generous scholarship from Google and Zendesk."></span> 
 								
 									- <span data-es="Maio, 2024" data-en="May, 2024"></span>
 								</li>
-
-							<li class="abme-honors-bullet mt-2">
-							    <strong>ICML 2024</strong>, <span data-es="Tive o meu primeiro artigo <a href='https://openreview.net/forum?id=OdPlFWExX1'>Sparse and Structured Hopfield Networks</a> aceite na International Conference on Machine Learning em Viena." data-en="Got my first paper <a href='https://openreview.net/forum?id=OdPlFWExX1'>Sparse and Structured Hopfield Networks</a> accepted at the International Conference on Machine Learning in Vienna."></span>
-							    - <span data-es="Abril, 2024" data-en="April, 2024"></span>
-							</li>
-
+								<li class="abme-honors-bullet mt-2">
+									<strong>ICML 2024</strong>, <span data-es="Tive o meu primeiro artigo <a href="https://openreview.net/forum?id=OdPlFWExX1/">Sparse and Structured Hopfield Networks</a> aceite na International Conference on Machine Learning em Viena" data-en="Got my first PhD paper accepted on <a href='https://openreview.net/forum?id=OdPlFWExX1/'>Sparse and Structured Hopfield Networks</a> accepted at International Conference on Machine Learning in Viena."></span> 
+									- <span data-es="Abril, 2024" data-en="April, 2024"></span>
+								</li>
 							</ul>
-
 							<h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
-
 							<div class="container">
-
 								<div class="row mt-5">
 									<div class="thumbnail col-md-3">
 										<img class="rounded mx-auto d-block img-fluid" src="/assets/documents/imgs/hobbies/NicolasMeseguerTailandia.webp" alt="Travelling">
@@ -245,13 +243,11 @@
 											data-es="Viajar" 
 											data-en="Travelling">
 										</b>
-
 										<br />
 										<p class="mt-2 d-inline justify"
 											data-es="Sempre viajei com a minha família. No entanto, após o meu programa de intercâmbio na Índia, decidi viajar por dois meses pela Ásia. Além de explorar toda a Índia, fiz o trekking até ao Annapurna base camp e também visitei a Tailândia e o Sri Lanka. Após a pandemia de Covid-19, decidi experimentar viajar sozinho e fiquei viciado desde então, tendo visitado países como Turquia, Israel, Jordânia, entre outros."
 											data-en="I have always traveled with my family. However, after my exchange program in India, I decided to travel for two months through Asia. In addition to exploring all of India, I did the trek to the Annapurna Base Camp and also visited Thailand and Sri Lanka. After the Covid-19 pandemic, I decided to try traveling solo and became hooked since then, visiting countries like Turkey, Israel, Jordan, among others.">
 										</p>
-
 									</div>
 								</div>
 								
@@ -259,76 +255,204 @@
 						</div>
 					</div>
 				</div>
-
-
-				<!-- Education Section -->
+				<!-- Education -->
 				<div class="col-md-8 offset-md-1 mb-5" id="educationContent">
-				    <div class="container">
-				
-				        <!-- PhD Education -->
-				        <div class="row mt-2 language">
-				            <h2 data-es="Doutoramento em Engenharia Eletrotécnica e de Computadores"
-				                data-en="Ph.D. in Electrical and Computer Engineering"></h2>
-				            <div class="trnsf-thin" data-es="(Instituto Superior Técnico, 2023-2027) GPA: 18/20"
-				                data-en="(Instituto Superior Técnico, 2023-2027) GPA: 18/20"></div>
-				
-				            <p class="mt-1 justify" data-es="Modelos neuronais para memórias e atenção com aplicações em processamento natural de linguagem."
-				                data-en="Neural models for memories and attention with application in NLP."></p>
-				
-				            <div class="trnsf-thin">
-				                <span data-es="Tese:" data-en="Dissertation:"></span>
-				                <span class="trnsf-italic" data-es="Por determinar (final~2027)." data-en="TBD (late~2027)."></span>
-				            </div>
-				        </div>
-				
-				        <!-- Master's Education -->
-				        <div class="row mt-3 language">
-				            <h2 data-es="Mestrado em Engenharia Aeroespacial" data-en="M.S. in Aerospace Engineering"></h2>
-				            <div class="trnsf-thin" data-es="(Instituto Superior Técnico, 2018-2020) GPA: 16/20"
-				                data-en="(Instituto Superior Técnico, 2018-2020) GPA: 16/20"></div>
-				
-				            <p class="mt-1 justify" data-es="Minor em aviónica." data-en="Minor in avionics."></p>
-				
-				            <div class="trnsf-thin">
-				                <span data-es="Tese:" data-en="Thesis:"></span>
-				                <span class="trnsf-italic">
-				                    <a href="./assets/documents/tese_84348.pdf" class="link-dark" target="_blank"
-				                        data-es="Redes Neuronais Momento-Simpléticas." data-en="Symplectic Momentum Neural Networks"></a>
-				                </span>
-				            </div>
-				            <div class="trnsf-thin">
-				                <span data-es="[encontra o repositório" data-en="[find the repository"></span>
-				                <a href="https://github.com/ssantos97/SyMo" class="link-dark" target="_blank"
-				                    data-es="aqui]" data-en="here]"></a>
-				            </div>
-				        </div>
-				
-				        <!-- Exchange Programme -->
-				        <div class="row mt-4 language">
-				            <h2 data-es="Programa de Intercâmbio" data-en="Exchange Programme"></h2>
-				            <div class="trnsf-thin" data-es="(Indian Institute of Technology, 2018-2018) GPA: 7/10"
-				                data-en="(Indian Institute of Technology, 2018-2018) GPA: 7/10"></div>
-				        </div>
-				
-				        <!-- B.S. in Aerospace Engineering -->
-				        <div class="row mt-3 language">
-				            <h2 data-es="Bacharelado em Engenharia Aeroespacial" data-en="B.S. in Aerospace Engineering"></h2>
-				            <div class="trnsf-thin" data-es="(Instituto Superior Técnico, 2015-2018) GPA: 15/20"
-				                data-en="(Instituto Superior Técnico, 2015-2018) GPA: 15/20"></div>
-				        </div>
-				
-				    </div>
+					<div class="container">
+						<div class="row mt-2 language">
+							<h2 
+								data-es="Doctorado en Arquitectura de Computadores"
+								data-en="Ph.D. in Computer Architecture"></h2>
+							<div class="trnsf-thin" 
+								data-es="(Universidad de Murcia, 2022-2026)" 
+								data-en="(University of Murcia, 2022-2026)"></div>
+
+							<p class="mt-1 justify"
+								data-es="
+								El diseño del sistema de memoria es un componente clave de cualquier arquitectura, y mucho más crucial en las arquitecturas heterogéneas, que están surgiendo como resultado de la ralentización de la Ley de Moore.
+								Aunque las jerarquías de memoria en las arquitecturas de propósito general se han explorado ampliamente a lo largo de los años, los aceleradores de dominio específico tienen restricciones que introducen variaciones en algunas características esenciales. Además, a medida que la capacidad de cálculo de estas arquitecturas heterogéneas crece, también lo hace la necesidad de poder recuperar datos con los que operar, lo que aumenta la presión sobre el diseño del sistema de memoria.
+								El objetivo general de este trabajo es sugerir enfoques para abordar dos preocupaciones trascendentales en el diseño del sistema de memoria de un procesador heterogéneo. Por un lado, organizaciones novedosas para las estructuras de memoria empleadas por los núcleos (considerando los aceleradores de deep learning en este caso), a través de las cuales se podrá responder a la exigencia de un ancho de banda cada vez mayor. Por otro lado, investigaremos alternativas a los conceptos actuales de memoria virtual para compartir de forma más eficiente el mismo espacio de memoria entre los núcleos de propósito general y los aceleradores.
+								"
+
+								data-en="
+								The design of the memory system is a key component of any computer architecture, and it is much more crucial in the heterogeneous architectures that are emerging as a result of Moore's Law slowing.
+								Although memory hierarchies in general-purpose architectures have been extensively explored over the years, domain-specific accelerators have restrictions that introduces variances in some essential features. Furthermore, as the computational capability of these heterogeneous architectures grows, so does the requirement to be able to retrieve data with which to operate, increasing the pressure on the design of the memory system.
+								The overarching goal of this work is to suggest approaches for addressing two transcendental concerns in the design of a heterogeneous processor's memory system. On the one hand, novel organizations for the memory structures employed by cores (considering deep learning accelerators in this case), through which it will be possible to respond to the requirement for ever-increasing bandwidth. On the other hand, we will investigate alternatives to present virtual memory concepts in order to more efficiently share the same memory space across general purpose cores and accelerators.
+								">
+
+							</p>
+
+							<div class="trnsf-thin">
+								<span 
+									data-es="Tésis:"
+									data-en="Dissertation:">
+								</span>
+								<span class="trnsf-italic"
+									data-es="Por determinar (finales~2026)."
+									data-en="TBD (late~2026).">
+								</span>
+							</div>
+
+						</div>
+
+						<div class="row mt-3 language">
+							<h2 
+								data-es="Máster en Arquitecturas de Altas Prestaciones y Supercomputación"
+								data-en="M.S. in High Performance Architectures and Supercomputing"></h2>
+							<div class="trnsf-thin"
+								data-es="(Universidad de Murcia, 2021-2022) 9,24 - 60 ECTS"
+								data-en="(University of Murcia, 2021-2022) 9,24 - 60 ECTS">
+							</div>
+
+							<p class="mt-1 justify"
+								data-es="
+								Diseño de arquitecturas multinúcleo de alto rendimiento, incluyendo la microarquitectura de cada uno de los núcleos de procesamiento, las cachés y la red de interconexión.
+								Comprender los mecanismos a través de los cuales se puede lograr una comunicación eficiente entre los núcleos (el protocolo de coherencia de la caché).
+								Evaluar el impacto de las diferentes técnicas arquitectónicas en el rendimiento y el consumo de energía de las arquitecturas multinúcleo de alto rendimiento.
+								Estándares de programación paralela: paradigmas de memoria compartida (OpenMP) e interfaz de paso de mensajes (MPI) + paradigmas híbridos (como MPI+OpenMP y OpenMP+CUDA).
+								Nociones de programación paralela, algoritmos y bibliotecas matriciales eficientes en sistemas de alto rendimiento (BLAS, Intel MKL, cuBLAS, ScaLAPACK).
+								Administración de sistemas de alto rendimiento (almacenamiento RAID, reglas de cortafuegos, protocolos de red, gestor de módulos, sistema de colas, arranque en red).
+								"
+
+								data-en="
+								Design high-performance multi-core architectures, including the microarchitecture of each of the processing cores, the caches and the interconnection network.
+								Understand the mechanisms through which efficient communication between cores can be achieved (the cache coherence protocol).
+								Assess the impact of different architectural techniques on the performance and power consumption of high-performance multi-core architectures.
+								Parallel programming standards: shared memory paradigms (OpenMP) and message passing interface (MPI) + hybrid paradigms (such as MPI+OpenMP and OpenMP+CUDA).
+								Notions of parallel programming and efficient matrix algorithms and libraries in high-performance systems (BLAS, Intel MKL, cuBLAS, ScaLAPACK).
+								High performance system administration (RAID storage, firewall rules, network protocols, module manager, queuing system, network boot).
+								">
+
+							</p>
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
+							<div class="trnsf-thin">
+								<span
+									data-es="TFM:"
+									data-en="Thesis:">
+								</span>
+								<span class="trnsf-italic">
+									<a href="./assets/documents/dissertations/NICOLASMESEGUER_CPU-PCGCN_efficient_processing_of_graph_convolutional_networks_on_CPU_architectures.pdf" class="link-dark" target="_blank"
+									data-es="CPU-PCGCN, procesamiento eficiente de redes convolucionales grafos en arquitecturas CPU."
+									data-en="CPU-PCGCN, efficient processing of graph convolutional networks on CPU architectures.">
+								</a>
+								</span>
+							</div>
+							<div class="trnsf-thin">
+								<span
+									data-es="[encuentra el repositorio"
+									data-en="[find the repository">
+								</span>
+								<a href="https://github.com/NicolasMeseguer/pcgcn" class="link-dark" target="_blank" 
+									data-es="aquí]"
+									data-en="here]">
+								</a>
+							</div>
+						</div>
+						<div class="row mt-3 language">
+							<h2 
+								data-es="Alumno Interno, Machine Learning y Deep Learning"
+								data-en="Intern Student, Machine Learning and Deep Learning">
+							</h2>
+							<div class="trnsf-thin" 
+								data-es="(Univerisdad Católica de Murcia, 2019-2020) - 12 ECTS" 
+								data-en="(Catholic University of Murcia, 2019-2020) - 12 ECTS">
+							</div>
+							<p class="mt-1 justify" 
+								data-es="
+								Introducción a Machine Learning (ML) y a las nociones que sustentan el cálculo de diferentes modelos de Deep Neural Networks (DNNs), como MLPs, CNNs o RNNs.
+								Durante mi estancia de prácticas, desarrollé una red neuronal completamente conectada (FC) y una convolucional (CNN) en C, mejorando la eficiencia de la caché (memoria dinámica, punteros, registros de memoria) y las operaciones matriciales para acelerar el cálculo. 
+								Esta aplicación se distribuye abiertamente a la comunidad científica; es totalmente modular y fácil de usar.
+								"
+								data-en="
+								Introduction to Machine Learning (ML) and the notions underpinning the computation of different Deep Neural Networks (DNNs) models, such as MLPs, CNNs, or RNNs.
+								During my time as an intern student, I developed a fully connected (FC) and a convolutional neural network (CNN) in C, improving cache efficency (dynamic memory, pointers, memory registers) and matrix operations to speed up the calculation. 
+								This application is openly distributed to the scientific commmunity; it is totally modular and user-friendly.
+								">
+							</p>
+							<div class="trnsf-thin">
+								<span
+									data-es="[encuentra la aplicación"
+									data-en="[find the application">
+								</span>
+								<a href="https://github.com/NicolasMeseguer/DNN" class="link-dark" target="_blank" 
+									data-es="aquí]"
+									data-en="here]">
+								</a>
+							</div>
+						</div>
+						<div class="row mt-3 language">
+							<h2 
+								data-es="(Honorífico) Grado en Ingeniería Informática"
+								data-en="(Hons) B.S. in Computer Engineering">
+							</h2>
+							<div class="trnsf-thin" 
+								data-es="(Univerisdad Católica de Murcia, 2018-2021) 9,3 - 240 ECTS" 
+								data-en="(Catholic University of Murcia, 2018-2021) 9,3 - 240 ECTS">
+							</div>
+							<p class="mt-1 justify"
+								data-es="
+								Estructuras de datos (pilas, colas, listas, grafos), algoritmos (ordenación, hashing, backtracking), 
+								bases de datos (relacionales y no relacionales), programación paralela (OMP y CUDA), 
+								arquitectura de ordenadores (MIPS, modelo Von Neumann, segmentación, multiciclo y monociclo), 
+								cálculo y álgebra lineal, redes, sistemas operativos y seguridad informática (curso CISCO), 
+								metodologías ágiles e ingeniería del software, programación visual avanzada, sistemas inteligentes (Python), 
+								apps móviles nativas y apps web progresivas, etc."
+								data-en="
+								Data structures (stacks, queues, lists, graphs), algorithms (sorting, hashing, backtracking), 
+								databases (relational and no relational), parallel programming (OMP and CUDA), 
+								computer architecture (MIPS, Von Neumann model, segmentation, multicycle and monocycle), 
+								calculus and linear algebra, networks, operating systems and computer security (CISCO course), 
+								agile methodologies and software engineering, advanced visual programming, smart systems (Python), 
+								native mobile apps and progressive web apps, etc.">
+								
+							</p>
+							<div class="trnsf-thin">
+								<span
+									data-es="TFG:"
+									data-en="Thesis:">
+								</span>
+								<span class="trnsf-italic">
+									<a href="./assets/documents/dissertations/NICOLASMESEGUER_Implementation_and_evaluation_of_the_DLRM_model_in_an_ASIC_accelerator_simulated_by_STONNE.pdf" class="link-dark" target="_blank"
+									data-es="Implementación y evaluación del modelo DLRM en un acelerador ASIC simulado por STONNE"
+									data-en="Implementation and evaluation of the DLRM model in an ASIC accelerator simulated by STONNE.">
+								</a>
+								</span>
+							</div>
+						</div>
+						<div class="row mt-3 language">
+							<h2 
+								data-es="Grado Superior en Desarrollo de Aplicaciones Web"
+								data-en="HNC Web App Developer">
+							</h2>
+							<div class="trnsf-thin">(IES José Planes, 2016-2018) 8,8 - 120 ECTS </div>
+							<p class="mt-1 justify"
+								data-es="Desarrollar, implementar y mantener aplicaciones web (enfoque MVC), 
+								independientemente del modelo utilizado y utilizando tecnologías específicas (Laravel, Symfony, Java, React.js o Node.js), 
+								garantizando el acceso seguro a los datos (MySQL, XML o Ajax) y cumpliendo los criterios de accesibilidad, 
+								usabilidad y calidad (Doctrine2, Ruby, SASS, Compass) exigidos por los estándares establecidos."
+								data-en="Developing, implementing and maintaining web applications (MVC approach), 
+								irrespective of the model used and using specific technologies (Laravel, Symfony, Java, React.js or Node.js), 
+								guaranteeing secure access to data (MySQL, XML or Ajax) and complying with the accessibility, 
+								usability and quality criteria (Doctrine2, Ruby, SASS, Compass) required by established standards.">
+							</p>
+						</div>
+					</div>
 				</div>
-
-
 				<!-- Publications -->
 				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
 					<div class="container">
-
 						<!-- Each new year -->
 						<div class="row mt-3">
 							<h2 class="pub-year-h2">2023</h2>
-
 							<!-- Each new publication inside the given year -->
 							<div class="pub-block">
 								<!-- Title -->
@@ -358,10 +482,8 @@
 }</div>
 							</div>
 						</div>
-
 						<div class="row mt-3">
 							<h2 class="pub-year-h2">2022</h2>
-
 							<div class="pub-block">
 								<div class="lucida-console h5">CPU-PCGCN: Procesamiento Eficiente de Redes Convolucionales de Grafos en Arquitecturas CPU</div>
 								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, Francisco Muñoz-Martínez, José L. Abellán, Manuel E. Acacio</div>
@@ -383,10 +505,8 @@
 }</div>
 							</div>
 						</div>
-
 						<div class="row mt-3">
 							<h2 class="pub-year-h2">2021</h2>
-
 							<div class="pub-block">
 								<div class="lucida-console h5">Evaluación de un Sistema de Recomendación en un Acelerador Híbrido</div>
 								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, Francisco Muñoz-Martínez, Manuel E. Acacio, José L. Abellán</div>
@@ -410,16 +530,95 @@
 						</div>
 					</div>
 				</div>
-
+				<!-- Blog -->
+				<div class="col-md-8 offset-md-1 mb-5" id="blogContent">
+					<div class="container">
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/StreaMemory-Benchmark-35739f7f69404274a1d287f6827ef203</div>
+							<div class="h5">⛲ StreaMemory Benchmark</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 25 min
+								</div>
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 11 feb. 2022
+								</div>
+							</div>
+							<div class="blog-short mt-2" 
+								data-es="Explicación del Stream + Memory benchmark en MGPUSim y los archivos que he tenido que modificar para lograrlo."
+								data-en="Explanation of the Stream + Memory benchmark in MGPUSim and the files I had to modify to achieve it.">
+							</div>
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#benchmark</span> <span class="tag t-lime">#mgpusim</span> <span class="tag t-purple">#akita</span>
+							</div>
+						</div>
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/Elementwise-2D-546f8fe9a8a24852a234bdc28b00cd15</div>
+							<div class="h5">🧊 Elementwise 2D Tensor</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 10 min
+								</div>
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 12 dec. 2022
+								</div>
+							</div>
+							<div class="blog-short mt-2" 
+								data-es="Explicación de element-wise para un tensor doble (2D) y un caso práctico de porqué no usar tamaños aleatorios para el tamaño de la matriz."
+								data-en="Explanation of element-wise for a double (2D) tensor and a case study of why not to use random sizes for matrix size.">
+							</div>
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span>
+							</div>
+						</div>
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/Tracing-LDS-Unit-69210a9d8fe44b4a997f8391aa508621</div>
+							<div class="h5">🛤️ Tracing LDS Unit</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 20 min
+								</div>
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 30 nov. 2022
+								</div>
+							</div>
+							<div class="blog-short mt-2"
+								data-es="¿Alguna vez has querido adjuntar un tracer a un componente específico dentro de MGPUSim? Incluso si ese 'componente' no es un componente como tal, sino un subcomponente de un componente. Este tutorial te será útil."
+								data-en="Have you ever wanted to attach a tracer to a specific component inside MGPUSim? Even if that 'component' is not a component itself but a subcomponent of a component. This tutorial will be helpful.">
+							</div>
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#tracing</span>
+							</div>
+						</div>
+						<div class="clickable mt-4 language">
+							<div class="d-none">https://nicolasmeseguer.notion.site/DAISEN-Tutorial-9d041575a9b0489099086152fd9a927e</div>
+							<div class="h5">📊 DAISEN Tutorial</div>
+							<div class="blog-info mt-2">
+								<div class="d-inline">
+									<i class="fa-light fa-hourglass-clock" aria-hidden="true"></i> 15 min
+								</div>
+								<div class="float-end d-inline">
+									<i class="fa-light fa-calendar" aria-hidden="true"></i> 15 nov. 2022
+								</div>
+							</div>
+							<div class="blog-short mt-2" 
+								data-es="Breve tutorial sobre la herramienta de visualización DAISEN utilizada para MGPUSim. Este tutorial viene acompañado con un kernel de referencia."
+								data-en="Brief tutorial about the visualization tool DAISEN used for MGPUSim. This tutorial comes along with a kernel example.">
+							</div>
+							<div class="blog-tags mt-1">
+								<span class="tag t-sky">#mgpusim</span> <span class="tag t-sky">#akita</span> <span class="tag t-sky">#daisen</span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
 				<!-- Academic / Teaching -->
 				<div class="col-md-8 offset-md-1 mb-5" id="academicContent">
 					<div class="container">
-
 						<!-- Each new year -->
 						<div class="row mt-2 language">
 							<!-- Year -->
 							<h2 class="academic-year-h2">2024</h2>
-
 							<!-- Each subject -->
 							<div class="academic-block mt-4">
 								<!-- Title -->
@@ -432,16 +631,13 @@
 								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
 							</div>
 						</div>
-
 						<div class="row mt-4 language">
 							<h2 class="academic-year-h2">2023</h2>
-
 							<div class="academic-block">
 								<div class="lucida-console h5 academic-name"> <span data-en="Introduction to Operating Systems" data-es="Introducción a Sistemas Operativos (ISO)"></span></div>
 								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
 								<div class="academic-year">3.00 ECTS. <span data-en="September 2023 - January 2024" data-es="Septiembre 2023 - Enero 2024"></span></div>
 							</div>
-
 							<div class="academic-block mt-4">
 								<div class="lucida-console h5 academic-name"> <span data-en="Multi-core and Purpose-built Architectures" data-es="Arquitecturas Multinúcleo y de Propósito Específico (AMPE)"></span></div>
 								<div class="academic-rol mt-1"><span data-en="Teaching Assistant" data-es="Profesor de Prácticas"></span></div>
@@ -449,10 +645,8 @@
 								<div class="mt-1"><a href="https://twitter.com/AMPE_UMU" target="_blank" class="link-dark"><i class="fa-brands fa-twitter"></i></a></div>
 							</div>
 						</div>
-
 						<div class="row mt-4 language">
 							<h2 class="student-h2" data-es="Alumnos" data-en="Students"></h2>
-
 							<div class="student-block">
 								<div class="student-name"> José Ángel Nicolás Ortega </div>
 								<div class="mt-1 h5 lucida-console"><span data-en="Register Bank Modeling on GPUs with MGPUSim" data-es="Modelado del Banco de Registros en GPUs con MGPUSim"></span></div>
@@ -462,7 +656,17 @@
 						</div>
 					</div>
 				</div>
-
+				<!-- Conferences -->
+				<div class="col-md-8 offset-md-1 mb-5" id="conferencesContent">
+					<div class="container language">
+						🌲 
+						<span 
+							data-es="Tienes todo el tiempo en el mundo para diseñar esta página"
+							data-en="You have all the time in the world to design this page.">
+						</span>
+						🌍
+						</div>
+				</div>
 				<!-- Experience -->
 				<div class="col-md-8 offset-md-1" id="experienceContent">
 					<div class="container language">
@@ -474,7 +678,6 @@
 						🌍
 						</div>
 				</div>
-
 				<!-- Projects -->
 				<div class="col-md-8 offset-md-1" id="projectsContent">
 					<div class="container language">
@@ -486,7 +689,6 @@
 						🌍
 						</div>
 				</div>
-
 				<!-- Photos -->
 				<!-- <div class="col-md-8 offset-md-1 mb-5" id="photosContent">
 					<h2 class="section-title language" 
@@ -498,12 +700,8 @@
 						data-es="Aquí puedes encontrar algunas de mis fotos.">
 					</p>
 				</div> -->
-
-
 			</div>
 		</div>
-
-
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -511,6 +709,4 @@
 		<script src="assets/js/languageManager.js"></script>
 		<script src="assets/js/main.js"></script>
 	</body>
-
 </html>
-
